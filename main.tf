@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "example" {
   location = "East US"
 }
 
-resource "azurerm_virtual_network" "main" {
+/*resource "azurerm_virtual_network" "main" {
   name                = "${var.prefix}-network"
   address_space       = ["10.0.0.0/16"]
   location            = azurerm_resource_group.example.location
@@ -66,3 +66,4 @@ resource "azurerm_virtual_machine" "main" {
     environment = "staging"
   }
 }
+*/
