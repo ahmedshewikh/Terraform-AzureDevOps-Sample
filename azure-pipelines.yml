@@ -17,7 +17,7 @@ stages:
         provider: 'azurerm'
         command: 'init'
         backendServiceArm: 'hisham4'
-        backendAzureRmResourceGroupName: '80ea84e8-afce-4851-928a-9e2219724c69'
+        backendAzureRmResourceGroupName: '1-3fe08d6d-playground-sandbox'
         backendAzureRmStorageAccountName: 'klklklklklkl'
         backendAzureRmContainerName: 'lklk'
         backendAzureRmKey: 'prodkterraform.tfstate'
