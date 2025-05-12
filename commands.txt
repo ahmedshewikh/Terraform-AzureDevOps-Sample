@@ -1,0 +1,10 @@
+terraform import azurerm_resource_group.example /subscriptions/80ea84e8-afce-4851-928a-9e2219724c69/resourceGroups/1-80389a28-playground-sandbox
+# list all resources
+terraform state list
+
+# remove that resource you don't want to destroy
+# you can add more to be excluded if required
+terraform state rm <resource_to_be_deleted> 
+terraform state rm azurerm_resource_group.example
+# destroy the whole stack except above excluded resource(s)
+terraform destroy 

@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "example" {
-  name     = "${var.prefix}-rg"
+  name     = "1-3fe08d6d-playground-sandbox"
   location = var.location
 }
 
